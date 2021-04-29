@@ -1,0 +1,29 @@
+{
+    "services": {
+        "proxy": {
+            "port": 10000
+        },
+        "auth": {
+            "port": 10001
+        },
+        "storage": {
+            "port": 10002
+        },
+        "users": {
+            "port": 10003
+        },
+        "recipes": {
+            "port": 10004
+        }
+    },
+   
+    "db": {
+        "username": "babysfood",
+        "password": "babysfoodplace123",
+        "host": "babys-food-place.nkzu2.mongodb.net",
+        "dbname": "Babys"
+    },
+    "security": {
+        "jwt_key": "secret123"
+    }
+}
